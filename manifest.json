@@ -1,11 +1,10 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "copy-result-data",
+	"name": "Copy Result Data",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"description": "This plugin copy text data to clipboard through URL scheme, mainly used together with Actions URI plugin to get the return data. Simply use obsidian://copy-result-data?result-data=your_text to copy 'your_text' to the clipboard.",
+	"author": "nohzafk",
+	"authorUrl": "https://github.com/nohzafk",
 	"isDesktopOnly": false
 }
