@@ -16,8 +16,8 @@ This plugin is mainly used together with [Actions URL](https://github.com/czottm
 
 ### Manual Installation
 
-1. Download the latest release from the [GitHub Releases page](https://github.com/your-github-username/copy-result-data-plugin/releases).
-2. Extract the plugin folder into your vault's `.obsidian/plugins` directory.
+1. Download the latest files from the [GitHub Releases page](https://github.com/nohzafk/obsidian-copy-result-data/releases).
+2. add `main.js` `manifest.json` to your vault's `.obsidian/plugins/obsidian-copy-result-data` directory.
 3. Reload Obsidian.
 4. Go to `Settings` > `Community Plugins` and disable `Safe Mode`.
 5. Enable the "Copy Result Data" plugin from the list of available plugins.
