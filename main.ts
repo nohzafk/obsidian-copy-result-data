@@ -1,4 +1,4 @@
-import { Plugin } from 'obsidian';
+import { Notice, Plugin } from 'obsidian';
 
 export default class CopyResultData extends Plugin {
 
@@ -10,9 +10,9 @@ export default class CopyResultData extends Plugin {
 				// Use the Clipboard API to copy data
 				try {
 					await navigator.clipboard.writeText(params['result-data']);
-					console.log('Data copied to clipboard:', params['result-data']);
+					new Notice('Data copied to clipboard:' + params['result-data']);
 				} catch (error) {
-					console.error('Failed to copy text to clipboard:', error);
+					new Notice(`Failed to copy text to clipboard: ${error}`);
 				}
 			}
 		});
